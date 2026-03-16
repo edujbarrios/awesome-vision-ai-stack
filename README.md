@@ -80,6 +80,12 @@ This one is optimized for builders who want to answer questions like:
 - [MLC-LLM](https://github.com/mlc-ai/mlc-llm) - Compile and deploy models on edge and mobile devices.
 - [OpenVINO](https://github.com/openvinotoolkit/openvino) - Useful for Intel-optimized deployments.
 
+### Run in browser (zero-setup inference)
+- [WebLLM](https://github.com/mlc-ai/web-llm) - Run VLMs natively in the browser without backend server.
+- [Transformers.js](https://github.com/xenova/transformers.js) - Hugging Face models (vision and audio) in JavaScript; enables client-side multimodal inference.
+- [ONNX Runtime Web](https://github.com/microsoft/onnxruntime) - Cross-platform model inference in browser; standardized format.
+- [TensorFlow.js](https://www.tensorflow.org/js) - TensorFlow models in browser and Node.js; useful for vision tasks and edge deployment.
+
 ### Serve at scale
 - [vLLM](https://github.com/vllm-project/vllm) - High-throughput inference engine increasingly relevant for multimodal serving.
 - [SGLang](https://github.com/sgl-project/sglang) - Fast serving and structured generation framework.
@@ -105,10 +111,13 @@ This is one of the biggest practical VLM opportunities.
 - [docTR](https://github.com/mindee/doctr) - OCR for document text detection and recognition.
 - [Nougat](https://github.com/facebookresearch/nougat) - OCR-style document understanding for scientific PDFs.
 - [Donut](https://github.com/clovaai/donut) - OCR-free document understanding model.
+- [Pix2Struct](https://github.com/google-research/pix2struct) - Document understanding without OCR; excellent for structured layouts, charts, and complex documents.
 - [LayoutLM](https://github.com/microsoft/unilm/tree/master/layoutlm) - Important family for document layout understanding.
+- [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO) - Modern layout detection and segmentation for complex documents.
 - [MinerU](https://github.com/opendatalab/MinerU) - Open document parsing and PDF extraction tooling.
 - [Marker](https://github.com/VikParuchuri/marker) - PDF-to-markdown/document extraction workflow.
 - [Surya](https://github.com/VikParuchuri/surya) - OCR and layout toolkit.
+- [PyMuPDF](https://pymupdf.readthedocs.io/) - Robust PDF handling and preprocessing; critical for document pipelines.
 - [ChartOCR](https://github.com/zmykevin/ChartOCR) - Chart understanding reference.
 - [ChartQA](https://github.com/vis-nlp/ChartQA) - Dataset and benchmark for chart reasoning.
 
@@ -125,6 +134,7 @@ This is one of the biggest practical VLM opportunities.
 Another high-value gap: builders want models that can read screens and act.
 
 ### Projects and references
+- [Anthropic Computer Use](https://www.anthropic.com/news/introducing-computer-use) - Direct VLM-to-action API for web automation; Claude 3.5 Sonnet integration shipped late 2024.
 - [SeeAct](https://github.com/OSU-NLP-Group/SeeAct) - Visual web agent framework.
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Software agent platform; relevant for multimodal and browser-use workflows.
 - [Browser Use](https://github.com/browser-use/browser-use) - Browser automation with model control.
@@ -133,6 +143,7 @@ Another high-value gap: builders want models that can read screens and act.
 - [UI-TARS](https://github.com/bytedance/UI-TARS) - UI-centric agent/model direction.
 - [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO) - Key building block for screen and visual grounding.
 - [SAM 2](https://github.com/facebookresearch/sam2) - Segmentation backbone useful for visual agents and annotation loops.
+- [ScreenQA](https://github.com/niansuh/ScreenQA) - Benchmark for evaluating screenshot understanding and UI navigation.
 
 ### Strong use cases
 - support copilots that understand screenshots
@@ -145,11 +156,15 @@ Another high-value gap: builders want models that can read screens and act.
 ## Agents, Grounding, and Robotics
 
 ### Grounding and perception
+- [CLIP & OpenCLIP](https://github.com/openai/CLIP) - Foundation models for zero-shot detection, retrieval, and visual embeddings; critical for flexible grounding and cross-modal search.
 - [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO) - Open-set detection from text prompts.
+- [YOLO-World](https://github.com/AILab-CVC/YOLO-World) - Open-vocabulary detection combining YOLO efficiency with open-set capabilities.
 - [Segment Anything](https://github.com/facebookresearch/segment-anything) - Foundational segmentation model.
 - [SAM 2](https://github.com/facebookresearch/sam2) - Video-capable segmentation and tracking direction.
 - [OWL-ViT](https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit) - Open-vocabulary detection.
 - [Detic](https://github.com/facebookresearch/Detic) - Detection with image-level supervision and open-vocabulary flavor.
+- [Florence-2](https://github.com/microsoft/Florence) - Dense prediction and structured understanding for documents, captions, and visual grounding.
+- [Depth-Anything](https://github.com/DepthAnything/Depth-Anything) - Monocular depth estimation; essential for 3D understanding, robotics, and spatial reasoning.
 
 ### Robotics-oriented projects
 - [OpenVLA](https://github.com/openvla/openvla) - Vision-language-action direction for robotics.
@@ -172,6 +187,8 @@ This is where vision goes from demo to system.
 - [LLaVA-NeXT-Video](https://github.com/LLaVA-VL/LLaVA-NeXT) - Video-capable branch of the LLaVA family.
 - [Qwen2-VL](https://github.com/QwenLM/Qwen2-VL) - Practical option for image and video understanding.
 - [LongVU](https://github.com/Vision-CAIR/LongVU) - Long video understanding direction.
+- [VideoMAE](https://github.com/MCG-NJU/VideoMAE) - Self-supervised masked autoencoder for video; strong backbone for video understanding and retrieval.
+- [Gemini 2.0 Video](https://deepmind.google/gemini/) - State-of-the-art multimodal video reasoning with native temporal understanding.
 
 ### Product opportunities
 - meeting and call analysis
