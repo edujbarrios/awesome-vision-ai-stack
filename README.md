@@ -49,6 +49,7 @@ This one is optimized for builders who want to answer questions like:
 - [Molmo](https://github.com/allenai/molmo) - Open multimodal assistant from Ai2 with strong grounding focus.
 - [Phi-3 Vision](https://huggingface.co/microsoft/Phi-3-vision-128k-instruct) - Compact multimodal model useful for practical deployments.
 - [Fuyu](https://huggingface.co/adept/fuyu-8b) - Multimodal autoregressive model with a distinct design.
+- [Gemma Vision](https://huggingface.co/google/gemma-2-vision-9b) - Google's open multimodal model; efficient vision-language understanding with strong performance on document and image reasoning.
 - [SmolVLM](https://huggingface.co/collections/HuggingFaceTB/smolvlm-67531d47c514f6f87c3f448f) - Small multimodal models for lightweight use cases.
 - [Moondream](https://github.com/vikhyat/moondream) - Lightweight open-source VLM optimized for efficiency and local deployment.
 - [MedGEMMA](https://huggingface.co/google/medgemma) - Medical-focused vision language model from Google for healthcare applications.
