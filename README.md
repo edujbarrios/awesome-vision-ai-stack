@@ -50,6 +50,8 @@ This one is optimized for builders who want to answer questions like:
 - [Phi-3 Vision](https://huggingface.co/microsoft/Phi-3-vision-128k-instruct) - Compact multimodal model useful for practical deployments.
 - [Fuyu](https://huggingface.co/adept/fuyu-8b) - Multimodal autoregressive model with a distinct design.
 - [SmolVLM](https://huggingface.co/collections/HuggingFaceTB/smolvlm-67531d47c514f6f87c3f448f) - Small multimodal models for lightweight use cases.
+- [Moondream](https://github.com/vikhyat/moondream) - Lightweight open-source VLM optimized for efficiency and local deployment.
+- [MedGEMMA](https://huggingface.co/google/medgemma) - Medical-focused vision language model from Google for healthcare applications.
 
 ### Research landmarks
 - [Flamingo](https://arxiv.org/abs/2204.14198) - Landmark few-shot visual language model.
